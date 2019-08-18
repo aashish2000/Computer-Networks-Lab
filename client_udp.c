@@ -29,7 +29,7 @@ int main() {
 	// Filling server information 
 	servaddr.sin_family = AF_INET; 
 	servaddr.sin_port = htons(7223); 
-	servaddr.sin_addr.s_addr = inet_addr("10.6.12.7"); 
+	servaddr.sin_addr.s_addr = inet_addr("10.6.12.5"); 
 	
 	int n, len; 
 	
